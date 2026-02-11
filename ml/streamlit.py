@@ -11,7 +11,7 @@ model = joblib.load("linear_model.pkl")
 # Page configuration
 # -----------------------------
 st.set_page_config(
-    page_title="CGPA to Package Predictor",
+    page_title="salary according to years of experience",
     page_icon="💼",
     layout="centered"
 )
@@ -21,7 +21,7 @@ st.set_page_config(
 # -----------------------------
 st.markdown("""
 <div style="background-color:#4CAF50;padding:20px;border-radius:10px">
-<h1 style="color:white;text-align:center;">CGPA to Package Predictor</h1>
+<h1 style="color:white;text-align:center;">salary according to years of experience</h1>
 <p style="color:white;text-align:center;">Enter your CGPA to predict your expected package in LPA.</p>
 </div>
 """, unsafe_allow_html=True)
