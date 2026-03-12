@@ -31,8 +31,8 @@ df['Cluster'] = kmeans.predict(X)
 st.subheader("Existing Student Data with Clusters")
 st.dataframe(df)
 
-# -----------------------------
-# Add new student input
+#--------------------------
+# Add new student input ---
 # -----------------------------
 st.subheader("Add New Student")
 study_hours = st.number_input("Study Hours", min_value=0, max_value=15, value=5)
